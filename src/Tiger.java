@@ -1,8 +1,5 @@
 import java.io.Serializable;
 
-/**
- * TODO 1.a: Implement serializable interface for class Tiger
- */
 public class Tiger extends Animal implements Walk, Serializable {
 
     // property for stripes on tiger
@@ -53,10 +50,6 @@ public class Tiger extends Animal implements Walk, Serializable {
         System.out.println("Tiger: I am moving at the speed " + speed);
     }
 
-    /**
-     * TODO 2.a: Override the toString method display the deserialized content
-     * after reading the file
-     */
     @Override
     public String toString() {
         return "Tiger{" +
